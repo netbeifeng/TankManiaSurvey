@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7864980509568746392
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2694068978226857080, guid: 07e8b52a619cd82499be1dd0e5ca26d8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2cb2567929f42154484047c9d7f69ea7, type: 2}
+    - target: {fileID: 2883863236492947747, guid: 07e8b52a619cd82499be1dd0e5ca26d8, type: 3}
+      propertyPath: m_Name
+      value: BrickWall_red Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7336926514660844579, guid: 07e8b52a619cd82499be1dd0e5ca26d8, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7336926514660844579, guid: 07e8b52a619cd82499be1dd0e5ca26d8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7336926514660844579, guid: 07e8b52a619cd82499be1dd0e5ca26d8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7336926514660844579, guid: 07e8b52a619cd82499be1dd0e5ca26d8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8763016945065412790, guid: 07e8b52a619cd82499be1dd0e5ca26d8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: db159a8e15ca94645b5d38dc544b53d9, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 07e8b52a619cd82499be1dd0e5ca26d8, type: 3}

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2369555806990880381
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2369555806990880379}
+  - component: {fileID: 2369555806990880378}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2369555806990880379
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2369555806990880381}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2369555806990880378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2369555806990880381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc186cf2acc9eac4ba0239678f21d41a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomFileNamePath: 
+  selectRandomRoom: 0
+  basicFloorTile:
+  - {fileID: 6873377528687503438, guid: 019e7393b01e9934e9ef3d709c7abd6d, type: 3}
+  basicWallTile:
+  - {fileID: 2883863236492947747, guid: 07e8b52a619cd82499be1dd0e5ca26d8, type: 3}
+  - {fileID: 9185347166848028995, guid: e4886a1849d0aef41b023abfccb18571, type: 3}
+  - {fileID: 4981979887252222651, guid: 3403aa91c48b6a2478c9bee7a4656930, type: 3}
+  - {fileID: 2605799256178818345, guid: e6375efd545ca4a439f549d0e81463e0, type: 3}
+  spawnPointTile: {fileID: 6873377528687503438, guid: 5a820f70376738e41bf6608cd37b2c67, type: 3}
+  itemTiles:
+  - {fileID: 6873377528687503438, guid: 019e7393b01e9934e9ef3d709c7abd6d, type: 3}
+  playerRef: {fileID: 0}
+  enemyPrefab: {fileID: 1989252085178197823, guid: 04fdbb5095bd2bb4d98667626e451eb2, type: 3}
+  levelMaps:
+  - {fileID: 2800000, guid: 402a1bea951331345a8262e0d309fb13, type: 3}
+  roomMaps:
+  - {fileID: 2800000, guid: 295ef91cf03ac584abff9940aad760bb, type: 3}
