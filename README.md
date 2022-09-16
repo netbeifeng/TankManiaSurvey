@@ -27,11 +27,19 @@ Here are some Screenshots taken in Desktop Build.
 ![Menu](Imgs/Menu.jpg)
 ![Game_MouseKeyboard](Imgs/MouseKeyboard.png)
 
+## Survey Result
+
+![Rank](Imgs/Graph_InputRank.png)
+![MobileRank](Imgs/Graph_MobileRanking.png)
+
 ## Members
 
 Janosch Landvogt
+
 Chang Luo
+
 Mykola Morozov
+
 Raoul Zebisch
 
 ## License
